@@ -1,0 +1,608 @@
+{
+ID: 1
+Execution Stack:
+(int a; (int b; (a=2+3*5; (b=a+1; print(b)))))
+
+Heap:
+
+Symbol Table:
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+int a
+(int b; (a=2+3*5; (b=a+1; print(b))))
+
+Heap:
+
+Symbol Table:
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+int a
+(int b; (a=2+3*5; (b=a+1; print(b))))
+
+Heap:
+
+Symbol Table:
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(int b; (a=2+3*5; (b=a+1; print(b))))
+
+Heap:
+
+Symbol Table:
+a->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(int b; (a=2+3*5; (b=a+1; print(b))))
+
+Heap:
+
+Symbol Table:
+a->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+int b
+(a=2+3*5; (b=a+1; print(b)))
+
+Heap:
+
+Symbol Table:
+a->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+int b
+(a=2+3*5; (b=a+1; print(b)))
+
+Heap:
+
+Symbol Table:
+a->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(a=2+3*5; (b=a+1; print(b)))
+
+Heap:
+
+Symbol Table:
+b->0
+a->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(a=2+3*5; (b=a+1; print(b)))
+
+Heap:
+
+Symbol Table:
+b->0
+a->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+a=2+3*5
+(b=a+1; print(b))
+
+Heap:
+
+Symbol Table:
+b->0
+a->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+a=2+3*5
+(b=a+1; print(b))
+
+Heap:
+
+Symbol Table:
+b->0
+a->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(b=a+1; print(b))
+
+Heap:
+
+Symbol Table:
+b->0
+a->17
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(b=a+1; print(b))
+
+Heap:
+
+Symbol Table:
+b->0
+a->17
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+b=a+1
+print(b)
+
+Heap:
+
+Symbol Table:
+b->0
+a->17
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+b=a+1
+print(b)
+
+Heap:
+
+Symbol Table:
+b->0
+a->17
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+print(b)
+
+Heap:
+
+Symbol Table:
+b->18
+a->17
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+print(b)
+
+Heap:
+
+Symbol Table:
+b->18
+a->17
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+
+Heap:
+
+Symbol Table:
+b->18
+a->17
+
+Output:
+18
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(int a; (int b; (a=2+3*5; (b=a+1; print(b)))))
+
+Heap:
+
+Symbol Table:
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+int a
+(int b; (a=2+3*5; (b=a+1; print(b))))
+
+Heap:
+
+Symbol Table:
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+int a
+(int b; (a=2+3*5; (b=a+1; print(b))))
+
+Heap:
+
+Symbol Table:
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(int b; (a=2+3*5; (b=a+1; print(b))))
+
+Heap:
+
+Symbol Table:
+a->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(int b; (a=2+3*5; (b=a+1; print(b))))
+
+Heap:
+
+Symbol Table:
+a->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+int b
+(a=2+3*5; (b=a+1; print(b)))
+
+Heap:
+
+Symbol Table:
+a->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+int b
+(a=2+3*5; (b=a+1; print(b)))
+
+Heap:
+
+Symbol Table:
+a->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(a=2+3*5; (b=a+1; print(b)))
+
+Heap:
+
+Symbol Table:
+b->0
+a->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(a=2+3*5; (b=a+1; print(b)))
+
+Heap:
+
+Symbol Table:
+b->0
+a->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+a=2+3*5
+(b=a+1; print(b))
+
+Heap:
+
+Symbol Table:
+b->0
+a->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+a=2+3*5
+(b=a+1; print(b))
+
+Heap:
+
+Symbol Table:
+b->0
+a->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(b=a+1; print(b))
+
+Heap:
+
+Symbol Table:
+b->0
+a->17
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(b=a+1; print(b))
+
+Heap:
+
+Symbol Table:
+b->0
+a->17
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+b=a+1
+print(b)
+
+Heap:
+
+Symbol Table:
+b->0
+a->17
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+b=a+1
+print(b)
+
+Heap:
+
+Symbol Table:
+b->0
+a->17
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+print(b)
+
+Heap:
+
+Symbol Table:
+b->18
+a->17
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+print(b)
+
+Heap:
+
+Symbol Table:
+b->18
+a->17
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+
+Heap:
+
+Symbol Table:
+b->18
+a->17
+
+Output:
+18
+
+FileTable:
+
+}
+

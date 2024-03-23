@@ -1,0 +1,82 @@
+
+.root {
+    width: 100%;
+    height: 100%;
+    -fx-background-color: #c68eff;
+    -fx-padding: 20px;
+
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: lightpink;
+}
+
+.select-title {
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-text-fill: lightblue;
+}
+
+.programList {
+    -fx-background-color: #bbfcfc;
+    -fx-font-weight: normal;
+}
+
+.programList .cell {
+    -fx-background-color: #f99cff;
+    -fx-text-fill: #000000;
+    -fx-font-size: 22px;
+    -fx-border-color: #ff84ff;
+    -fx-cursor: crosshair;
+}
+
+.programList .virtual-flow > .scroll-bar {
+    -fx-opacity: 0;
+    -fx-visibility: hidden;
+}
+
+.programList .cell:hover {
+    -fx-background-color: #bf87c4;
+    -fx-text-fill: #000000;
+    -fx-border-color: #ff84ff;
+    -fx-cursor: hand;
+}
+
+.program_title {
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #c68eff;
+}
+
+.btn {
+    -fx-background-color: #eb54ff;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-border-color: #f99cff;
+    -fx-cursor: hand;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+}
+
+.btn:hover {
+    -fx-background-color: #bbfcfc;
+    -fx-text-fill: #000000;
+    -fx-border-color: pink;
+    -fx-cursor: hand;
+}
+
+.btn:pressed {
+    -fx-background-color: #f99cff;
+    -fx-text-fill: #000000;
+    -fx-border-color: #c68eff;
+    -fx-cursor: hand;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+.programSelectionTitle {
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+
+}

@@ -1,0 +1,831 @@
+{
+ID: 1
+Execution Stack:
+(int v; (v=9; (Ref(int) a; (new(a, 11);; (fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))); (print(v); (print(readHeap(a)); No operation)))))))
+
+Heap:
+
+Symbol Table:
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+int v
+(v=9; (Ref(int) a; (new(a, 11);; (fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))); (print(v); (print(readHeap(a)); No operation))))))
+
+Heap:
+
+Symbol Table:
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+int v
+(v=9; (Ref(int) a; (new(a, 11);; (fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))); (print(v); (print(readHeap(a)); No operation))))))
+
+Heap:
+
+Symbol Table:
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(v=9; (Ref(int) a; (new(a, 11);; (fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))); (print(v); (print(readHeap(a)); No operation))))))
+
+Heap:
+
+Symbol Table:
+v->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(v=9; (Ref(int) a; (new(a, 11);; (fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))); (print(v); (print(readHeap(a)); No operation))))))
+
+Heap:
+
+Symbol Table:
+v->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+v=9
+(Ref(int) a; (new(a, 11);; (fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))); (print(v); (print(readHeap(a)); No operation)))))
+
+Heap:
+
+Symbol Table:
+v->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+v=9
+(Ref(int) a; (new(a, 11);; (fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))); (print(v); (print(readHeap(a)); No operation)))))
+
+Heap:
+
+Symbol Table:
+v->0
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(Ref(int) a; (new(a, 11);; (fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))); (print(v); (print(readHeap(a)); No operation)))))
+
+Heap:
+
+Symbol Table:
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(Ref(int) a; (new(a, 11);; (fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))); (print(v); (print(readHeap(a)); No operation)))))
+
+Heap:
+
+Symbol Table:
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+Ref(int) a
+(new(a, 11);; (fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))); (print(v); (print(readHeap(a)); No operation))))
+
+Heap:
+
+Symbol Table:
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+Ref(int) a
+(new(a, 11);; (fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))); (print(v); (print(readHeap(a)); No operation))))
+
+Heap:
+
+Symbol Table:
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(new(a, 11);; (fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))); (print(v); (print(readHeap(a)); No operation))))
+
+Heap:
+
+Symbol Table:
+a->(0, int)
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(new(a, 11);; (fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))); (print(v); (print(readHeap(a)); No operation))))
+
+Heap:
+
+Symbol Table:
+a->(0, int)
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+new(a, 11);
+(fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))); (print(v); (print(readHeap(a)); No operation)))
+
+Heap:
+
+Symbol Table:
+a->(0, int)
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+new(a, 11);
+(fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))); (print(v); (print(readHeap(a)); No operation)))
+
+Heap:
+
+Symbol Table:
+a->(0, int)
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))); (print(v); (print(readHeap(a)); No operation)))
+
+Heap:
+1 -> 11
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))); (print(v); (print(readHeap(a)); No operation)))
+
+Heap:
+1 -> 11
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a))))))
+(print(v); (print(readHeap(a)); No operation))
+
+Heap:
+1 -> 11
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+fork((writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a))))))
+(print(v); (print(readHeap(a)); No operation))
+
+Heap:
+1 -> 11
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(print(v); (print(readHeap(a)); No operation))
+
+Heap:
+1 -> 11
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 2
+Execution Stack:
+(writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))
+
+Heap:
+1 -> 11
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(print(v); (print(readHeap(a)); No operation))
+
+Heap:
+1 -> 11
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 2
+Execution Stack:
+(writeHeap(a, 12);; (v=10; (print(v); print(readHeap(a)))))
+
+Heap:
+1 -> 11
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+print(v)
+(print(readHeap(a)); No operation)
+
+Heap:
+1 -> 11
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 2
+Execution Stack:
+writeHeap(a, 12);
+(v=10; (print(v); print(readHeap(a))))
+
+Heap:
+1 -> 11
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+print(v)
+(print(readHeap(a)); No operation)
+
+Heap:
+1 -> 11
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 2
+Execution Stack:
+writeHeap(a, 12);
+(v=10; (print(v); print(readHeap(a))))
+
+Heap:
+1 -> 11
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(print(readHeap(a)); No operation)
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+9
+
+FileTable:
+
+}
+
+{
+ID: 2
+Execution Stack:
+(v=10; (print(v); print(readHeap(a))))
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+9
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+(print(readHeap(a)); No operation)
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+9
+
+FileTable:
+
+}
+
+{
+ID: 2
+Execution Stack:
+(v=10; (print(v); print(readHeap(a))))
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+9
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+print(readHeap(a))
+No operation
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+9
+
+FileTable:
+
+}
+
+{
+ID: 2
+Execution Stack:
+v=10
+(print(v); print(readHeap(a)))
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+9
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+print(readHeap(a))
+No operation
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+9
+
+FileTable:
+
+}
+
+{
+ID: 2
+Execution Stack:
+v=10
+(print(v); print(readHeap(a)))
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+9
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+No operation
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+9
+12
+
+FileTable:
+
+}
+
+{
+ID: 2
+Execution Stack:
+(print(v); print(readHeap(a)))
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->10
+
+Output:
+9
+12
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+No operation
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+9
+12
+
+FileTable:
+
+}
+
+{
+ID: 2
+Execution Stack:
+(print(v); print(readHeap(a)))
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->10
+
+Output:
+9
+12
+
+FileTable:
+
+}
+
+{
+ID: 1
+Execution Stack:
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->9
+
+Output:
+9
+12
+
+FileTable:
+
+}
+
+{
+ID: 2
+Execution Stack:
+print(v)
+print(readHeap(a))
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->10
+
+Output:
+9
+12
+
+FileTable:
+
+}
+
+{
+ID: 2
+Execution Stack:
+print(v)
+print(readHeap(a))
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->10
+
+Output:
+9
+12
+
+FileTable:
+
+}
+
+{
+ID: 2
+Execution Stack:
+print(readHeap(a))
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->10
+
+Output:
+9
+12
+10
+
+FileTable:
+
+}
+
+{
+ID: 2
+Execution Stack:
+print(readHeap(a))
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->10
+
+Output:
+9
+12
+10
+
+FileTable:
+
+}
+
+{
+ID: 2
+Execution Stack:
+
+Heap:
+1 -> 12
+
+Symbol Table:
+a->(1, int)
+v->10
+
+Output:
+9
+12
+10
+12
+
+FileTable:
+
+}
+
